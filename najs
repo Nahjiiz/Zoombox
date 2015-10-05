@@ -1,0 +1,259 @@
+[33mcommit 231fae8ae2597c790c8f782c7f987ea3dbf54057[m
+Merge: 23cbb92 bfa5d72
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Nov 2 19:13:46 2014 +0100
+
+    Merge pull request #40 from ScreamZ/master
+    
+    Mise à jour du CSS pour fonctionner avec les modales de boostrap
+
+[33mcommit bfa5d72ecd737d85a65faa2e02131bdad981caea[m
+Author: ScreamZ <andreas.hanss67@gmail.com>
+Date:   Wed Feb 19 11:17:16 2014 +0100
+
+    Update CSS for working with Twitter Bootstrap Modal
+    
+    En changeant le Z-index de tout le fichier à une valeur supérieure à 1050 (Twitter Bootstrap Modal Z-index) les modales fonctionnent correctement en se positionnant sous la zoombox dans le cas où le lien se trouve dans une modale !
+
+[33mcommit 23cbb921c7456e36910a7a8029274b9a466b22d1[m
+Merge: 6015561 60764fe
+Author: Grafikart <contact@grafikart.fr>
+Date:   Tue Sep 3 03:29:40 2013 -0700
+
+    Merge pull request #36 from rocambolesque/master
+    
+    Does not add images with zskip class to the gallery
+
+[33mcommit 6015561feac4d65c3f230d494d2ce13e03ff2e34[m
+Merge: 6f46b62 f4d1468
+Author: Grafikart <contact@grafikart.fr>
+Date:   Tue Sep 3 03:27:44 2013 -0700
+
+    Merge pull request #38 from ATimofeev/master
+    
+    Some fixes for new jQuery versions
+
+[33mcommit f4d1468f792fec8ebb20aa96a80e6481281d0bde[m
+Author: ATimofeev <atimofeev@reactant.ru>
+Date:   Tue Sep 3 09:25:50 2013 +0700
+
+    When arrow key pressed, but zgallery classes are not defined (TypeError: Cannot call method 'attr' of undefined)
+
+[33mcommit 4ef596fb302e0063e6d218b2bc3914d20136e707[m
+Author: ATimofeev <atimofeev@reactant.ru>
+Date:   Tue Sep 3 09:23:07 2013 +0700
+
+    Check $.browser method definition first (TypeError: Cannot read property 'msie' of undefined)
+
+[33mcommit 118942e03806abb62316dbdf432b974bdc3f6ccb[m
+Author: ATimofeev <atimofeev@reactant.ru>
+Date:   Tue Sep 3 09:20:30 2013 +0700
+
+    Remove whitespaces
+
+[33mcommit 60764feb4fbc13fcbb792904e4dc82ca88c5e04c[m
+Author: rocambolesque <rocambolesquedev@gmail.com>
+Date:   Wed Aug 7 15:05:06 2013 +0200
+
+    Does not add images with zskip class to the gallery
+
+[33mcommit 6f46b6263be59af05acabe3d441b01c866a35ea6[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Thu Jan 26 11:14:06 2012 +0100
+
+    Fixed a bug wiath autoplay = true
+
+[33mcommit 0b2c68e02751699ab44b9b3124c514b052fc44e6[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Wed Jan 25 23:42:51 2012 +0100
+
+    Replaced the old "object" code for vimeo, dailymotion and youtube with iframe
+
+[33mcommit c1f1c7e8ad2848e0a1e12e7820c5dbeac2336d0e[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Sep 11 00:57:38 2011 +0200
+
+    Fixed a bug on FLVPlayer
+
+[33mcommit a614ea5e5a56731984a6ec034e612a5d13a8a0cf[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Fri Sep 9 11:30:14 2011 +0200
+
+    New gallery system
+
+[33mcommit c6670b12b9872bececc446a803278059f92bb48c[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Fri Sep 2 11:01:15 2011 +0200
+
+    BugFix : The gallery wasn't hidden when there wasn't "zgallery"class
+
+[33mcommit 7636a3ae886c37833d84f5574fb10e907c9763f9[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Wed Aug 31 22:50:59 2011 +0200
+
+    Show gallery if mouseOver while opening an image
+
+[33mcommit 890d9ebf60334d5cc6f08af1602a8fe7618cace4[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Wed Aug 31 22:45:37 2011 +0200
+
+    BugFix : Gallery is now hidden when on mouseOut
+
+[33mcommit 93543bdf5ff3b8ab4b0ebdc640f126ac628fcd14[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Wed Aug 31 21:43:40 2011 +0200
+
+    Reworked the gallery and the animation
+    
+    The gallery is no longer multiline and become "scrolled" when there is
+    too much images BugFix : The image animation was broken with the
+    previous change, this is no fixed BugFix : The first line of CSS was
+    broken (this line remove iframe and img borders)
+
+[33mcommit 071774da51ec974ef16f68cad58235a07250f723[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Tue Apr 19 01:32:52 2011 +0200
+
+    Fixed a bug with FLVPlayer
+
+[33mcommit 1045df0de381a7e9b8fed7f7740893fabc1e2ee0[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Tue Mar 29 19:03:34 2011 +0200
+
+    Fixed a bug when an image was opened before the video and fixed a bug when width and height was fixed using classes.
+
+[33mcommit 25eded414bf69438f4330049a69cbebb4bbbb09d[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Mar 27 23:39:48 2011 +0200
+
+    FIX issues #5
+
+[33mcommit 5b5aa448753daf67d2cc336126c8fb92f42670d3[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Mar 12 16:28:59 2011 +0100
+
+    Virgule en trop dans la fonction resize supprimée
+
+[33mcommit 4d8b3c263369c75fb5df536f07553ab299828efc[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Mar 12 14:06:36 2011 +0100
+
+    BUGFIX : Issues 2 & 3
+
+[33mcommit c4b8448afd450c55519c6f8a8770b7eca57451f1[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Fri Mar 4 18:17:59 2011 +0100
+
+    Zoombox is now repositioned when Window is resized, New options : "overflow"
+
+[33mcommit 1fb88c4648f4eef2e3abe8e28fc974ec029289d2[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Thu Mar 3 21:14:13 2011 +0100
+
+    BugFix : issue 1
+    Keyboard shortcut support added
+    Demo added
+
+[33mcommit 431e5c9e10cdbb492075dcf3a580f0cdd486fa62[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Feb 27 17:34:06 2011 +0100
+
+    Removed "netbeans project" directory
+
+[33mcommit ee9910e8f56d5304f8370a9ae5f02f923c7a2ce4[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Feb 27 17:32:24 2011 +0100
+
+    New source code
+
+[33mcommit f0657e7da0684801ec0ad4fc7fdf632b5c2ee937[m
+Merge: 11918a3 7f69f00
+Author: Grafikart <contact@grafikart.fr>
+Date:   Wed Nov 24 19:25:54 2010 +0100
+
+    Merge branch 'master' of git@github.com:Grafikart/Zoombox.git
+
+[33mcommit 11918a384824c6ce58e9a23eb541adb766fef35b[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Wed Nov 24 19:14:58 2010 +0100
+
+    Fixed a bug caused by a double click on a link
+
+[33mcommit 7f69f0053900584a7627ddd61fba5a994d71a144[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Tue Nov 23 18:57:35 2010 +0100
+
+    Fixed a bug caused by a double click on a link
+
+[33mcommit b443f89b96c6c7ead4c21c3268783c7d089c64d4[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Oct 3 16:01:58 2010 +0200
+
+    End of test
+
+[33mcommit fa8a9da188a4177b16ef4d4b698f6398ccab079b[m
+Merge: ad1d83e 4450669
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Oct 3 16:00:59 2010 +0200
+
+    Merge branch 'master' of github.com:Grafikart/Zoombox
+
+[33mcommit ad1d83e32a607353c5f7fe9ac0098e7a2d286b0c[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Oct 3 15:55:34 2010 +0200
+
+    Conflict test
+
+[33mcommit 4450669a511e9f54768d25913592bf0f641025a6[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sun Oct 3 15:54:57 2010 +0200
+
+    Test of git conflict
+
+[33mcommit 8fdc2e0218a0a01d9f531eeb93b60b97c22e24f8[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Wed Sep 22 22:32:31 2010 +0200
+
+    Solve a bug with lightbox theme
+
+[33mcommit 95b754d6d7ae8706416b98365164cb2919b5add9[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Sep 11 16:10:41 2010 +0200
+
+    new README.md
+
+[33mcommit f7ce851d19a5e6a4439898085ffd984bf0832d33[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Sep 11 16:09:09 2010 +0200
+
+    new README.md
+
+[33mcommit d13d16b57eb358363ed2e21342aa265d85c7c962[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Sep 11 16:06:59 2010 +0200
+
+    new README.md
+
+[33mcommit 089fb05110f25ed3ebc42add6e53ff2f34d49ad2[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Sep 11 16:04:19 2010 +0200
+
+    New README
+
+[33mcommit 0e275215b0ef0613779b4113e57727e5e82abc54[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Sep 11 16:01:21 2010 +0200
+
+    New README.md
+
+[33mcommit 4f0aa8c40a492f4ecadfec1d84e3f05d670c8aed[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Sep 11 16:00:00 2010 +0200
+
+    New README
+
+[33mcommit 0104499261c7f10f44ba0a965400d3ad751c1cdb[m
+Author: Grafikart <contact@grafikart.fr>
+Date:   Sat Sep 11 15:51:49 2010 +0200
+
+    First commit on GitHub
